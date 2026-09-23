@@ -1,4 +1,7 @@
-# MacFeel
+<h1 align="center">
+  <img src="MacFeel/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png" width="150" alt=""><br>
+  MacFeel
+</h1>
 
 Your MacBook is also a scale, a protractor, a spirit level and a light meter. And it yelps when you
 slap it. MacFeel is the menu bar app that lets you use any of that.
