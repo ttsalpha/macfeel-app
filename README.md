@@ -12,6 +12,14 @@ slap it. MacFeel is the menu bar app that lets you use any of that.
 - macOS 14 or later. Every hardware detail below was verified on macOS 27, Mac16,12 (M4 Air).
 - Xcode with the macOS SDK. Swift 6, arm64 only.
 
+## Install
+
+```sh
+brew install -y --cask ttsalpha/tap/macfeel && xattr -dr com.apple.quarantine /Applications/MacFeel.app
+```
+
+The app is not notarized, so Gatekeeper quarantines it; the `xattr` call clears that flag.
+
 ## Instruments
 
 | Panel          | Reads                           | Source                                                | Permission       |
